@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-box {
+  position: relative;
+  width: 100px;
+  margin: 10vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-stop {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
