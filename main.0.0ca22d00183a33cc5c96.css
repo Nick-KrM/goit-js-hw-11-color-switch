@@ -1,0 +1,1 @@
+html{box-sizing:border-box;width:100vw;overflow-x:hidden}*,:after,:before{box-sizing:inherit}.container{width:1280px;margin:0 auto;display:flex;justify-content:center}.btn-box{position:relative;width:100px;margin:10vw auto;display:flex;justify-content:space-between}.btn-stop{top:0;right:0;position:absolute}
