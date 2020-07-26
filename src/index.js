@@ -39,9 +39,13 @@ startBtn.addEventListener('click', () => {
     intervalId = setInterval(() => {
         changeColor();
     }, 1000)
+    startBtn.setAttribute('disabled', true);
+    stopBtn.removeAttribute('disabled');
 });
 
 stopBtn.addEventListener('click', () => {
     clearInterval(intervalId);
     isActive = false;
+    stopBtn.setAttribute('disabled', true);
+    startBtn.removeAttribute('disabled');
 });
