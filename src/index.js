@@ -38,7 +38,7 @@ startBtn.addEventListener('click', () => {
 
     intervalId = setInterval(() => {
         changeColor();
-    }, 1000)
+    }, 500)
     startBtn.setAttribute('disabled', true);
     stopBtn.removeAttribute('disabled');
 });
